@@ -71,8 +71,8 @@ function getInputValue() {
 const updateGame = (p1, p2, gameState) => {
   // Update the DOM with the names and the latest health of players
 
-  p1NameDiv.innerText = p1Name
-  p2NameDiv.innerText = p2Name
+  p1NameDiv.innerText = p1.name
+  p2NameDiv.innerText = p2.name
 
   p1HealthDiv.innerText = p1.health
   p2HealthDiv.innerText = p2.health
